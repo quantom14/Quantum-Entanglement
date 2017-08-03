@@ -15,8 +15,8 @@ Here are a few lines of code that demonstrate how NegMapEns works. We create to 
         	NegMapEns(rho(1:k),2,sigma(1:k),2)
         
        		k = k+1; 
-    end
-end
+    	end
+	end
 
 ans =
 
