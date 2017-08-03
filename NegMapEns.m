@@ -6,13 +6,13 @@
 % 
 % required arguments:
 % 
-% setrhoAB:     Cell array containing the set of input states; all such
-%               states should have the same input dimension dInTot
+% setrhoAB:     Cell array containing the set of input density matrices; 
+%               all such states should have the same input dimension dInTot
 %
 % dA:           Dimension of input system A
 %
-% setsigmaCD:   Cell array containing the set of output states; all such 
-%               states should have the same output dimension dOutTot 
+% setsigmaCD:   Cell array containing the set of output density matrices; 
+%               all such states should have the same output dimension dOutTot 
 %
 % dC:           Dimension of output system C
 %
