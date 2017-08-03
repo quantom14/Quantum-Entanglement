@@ -42,7 +42,7 @@
 %
 % authors: Marco Piani, Bintener Tom
 %%-------------------------------------------------------------------------
-function [neg,W_out] = NegMapEns1(setrhoAB,dA,setsigmaCD,dC,varargin)
+function [neg,W_out] = NegMapEns(setrhoAB,dA,setsigmaCD,dC,varargin)
 
 %% Calculate dimensions that are not given already
 
