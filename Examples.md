@@ -7,14 +7,14 @@ Here are a few lines of code that demonstrate how NegMapEns works. We create to 
 >> rho = cell(1,4);
 >> sigma = cell(1,4);
 >> k = 1;
->>for i = 0:1
+>> for i = 0:1
     	for j = 0:1
-        		rho{k} = prod_state(i,j)*prod_state(i,j)';
-        		sigma{k} = Bell(k-1)*Bell(k-1)';
+        	rho{k} = prod_state(i,j)*prod_state(i,j)';
+        	sigma{k} = Bell(k-1)*Bell(k-1)';
         
-        		NegMapEns(rho(1:k),2,sigma(1:k),2)
+        	NegMapEns(rho(1:k),2,sigma(1:k),2)
         
-       		k = k+1; 
+       	k = k+1; 
     end
 end
 
