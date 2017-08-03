@@ -8,11 +8,4 @@ QETLAB and CVX can be found free to download here:
 * [QETLAB](http://www.qetlab.com/Installation)
 * [CVX](http://cvxr.com/cvx/download) by CVX Research, Inc
 
-
-Examples 
-===
-
-```
-hello
-```
 	
