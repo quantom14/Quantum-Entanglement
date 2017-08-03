@@ -16,7 +16,7 @@ Here are a few lines of code that demonstrate how NegMapEns works. We create to 
         
        		k = k+1; 
     	end
-	end
+end
 
 ans =
 
