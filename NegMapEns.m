@@ -4,7 +4,7 @@
 % into setsigmaCD{i}; if a value for epsilon is provided an approximate 
 % mapping is considered.
 % 
-% required arguments:
+% required arguments: 
 % 
 % setrhoAB:     Cell array containing the set of input density matrices; 
 %               all such states should have the same input dimension dInTot
